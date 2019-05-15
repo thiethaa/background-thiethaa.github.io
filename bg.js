@@ -3,6 +3,10 @@ var color1 = document.querySelector(".color1");
 var color2 = document.querySelector(".color2");
 var body = document.getElementById("gradient");
 
+var _ = require('lodash');
+
+var array=[1,2,3,4,5,6,7,8,9];
+console.log ('answer:',_.without(array,2));
 /*
 color1.addEventListener("input", function(){
     body.style.background = 
